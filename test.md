@@ -24,3 +24,7 @@ git checkout +(id) -- +(檔案名稱.md)
 git reset --hard +(id) 還原到目標還原點 #操作不可逆
 --
 .gitignore 在目錄新增檔案 檔案內*.(檔名or副檔名) #忽略檔案內的檔名的檔案
+git config --list 檢查設定值
+git remote add origin +(github 網址) 連結本地與遠端資料庫
+git branch -M (要的參數) 更改主線名稱 if main 
+git push -u origin (brunch名稱)  後面也是main 推送資料到雲端
